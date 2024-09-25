@@ -1,0 +1,167 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #f7f9f8;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #about, #portfolio, #contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #portfolio .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #portfolio .gallery div {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  form button {
+    background-color: #f4f5f7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+  }
+  
+
+
+
+
+
+
+
+
+
+  /* Existing CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #portfolio .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #portfolio .gallery div {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Add Media Queries below */
+  
+  /* Medium screen sizes (tablets) */
+  @media (max-width: 768px) {
+    #portfolio .gallery div {
+      width: 45%;
+    }
+  }
+  
+  /* Small screen sizes (mobiles) */
+  @media (max-width: 576px) {
+    #portfolio .gallery div {
+      width: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+  /* Light mode (default) styles */
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-mode header nav ul li a {
+  color: #fff;
+}
+
+body.dark-mode .about-section {
+  background-color: #222;
+}
+
+body.dark-mode .about-content h1, 
+body.dark-mode .about-content h2, 
+body.dark-mode .about-content p {
+  color: #f1f1f1;
+}
+
+body.dark-mode .gallery .work-item p {
+  color: #bbb;
+}
+
+body.dark-mode .skills-layout {
+  background-color: #222;
+}
+
+body.dark-mode .skill-title h3,
+body.dark-mode .skill-bar span {
+  color: white;
+}
+
+body.dark-mode .bar {
+  background-color: #555;
+}
+
+body.dark-mode #services {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-mode #services h3 {
+  color: #00bfff;
+}
+
+body.dark-mode footer p {
+  color: white;
+}
